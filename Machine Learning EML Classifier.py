@@ -99,7 +99,7 @@ def extract_features(eml_bytes):
 
 
 # Load the dataset of .eml files and their labels
-emails, labels = load_dataset('C:/Users/nloya/Downloads/emails.csv')
+emails, labels = load_dataset('Your-path-here.csv')
 
 # Split the dataset into training and testing sets
 X_train, X_test, y_train, y_test = train_test_split(emails, labels)
